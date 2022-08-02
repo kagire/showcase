@@ -10,11 +10,11 @@ Built with: **Maven**, Language: **Java 11**, Database: **PostgreSQL**
 
 1) Program generates files on startup. its 100 `.txt` files inside **input** folder.
 2) Program merges all files from input folder to output folder with filename `A-file.txt`.  
-![](task1\images\img-1.png "conditions 1-2")
+![](task1/images/img-1.png "conditions 1-2")
 3) Program gets selected file (or all if not specified) and commits it to database.  
-![](task1\images\img-2.png "condition 3")
+![](task1/images/img-2.png "condition 3")
 4) Program calls function from database and returns its value.  
-![](task1\images\img-3.png "condition 3")  
+![](task1/images/img-3.png "condition 3")  
 Sql for this function:  
     ```sql
     CREATE OR REPLACE FUNCTION public.integersumanddoublemed(
@@ -77,7 +77,7 @@ Sql for this function:
 #### How to run
 
 1) Import database to postgres from that [sql script](task1/files/database-init.sql).  
-2) Get jar file from [here](task1/files/dd-task.jar).  
+2) Get jar file from [here](task1/files/db-task.jar).  
 3) Launch program using `java -jar db-task.jar`. Needed postgres driver embedded.  
 
 #### Code
@@ -94,14 +94,14 @@ Built with: **Maven** using **Spring** and **Thymeleaf**, Language: **Java 11**,
 #### Conditions
 
 1) Resulting database schema:  
-   ![](task2\images\img-1.png "ER model")
+   ![](task2/images/img-1.png "ER model")
 2) Simple html form gets the file, adds it to database, then shows all db-saved docs.  
-   ![](task2\images\img-2.png "Homepage")
+   ![](task2/images/img-2.png "Homepage")
    Uploaded doc looks like this:  
-   ![](task2\images\img-3.png "Doc page")
+   ![](task2/images/img-3.png "Doc page")
 3) Database backup proceeds by creating JSON file with all data stored on server.
  Here is example of successful operation:  
- ![](task2\images\img-4.png "Backup success")
+ ![](task2/images/img-4.png "Backup success")
 
 #### How to run
 
