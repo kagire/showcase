@@ -76,7 +76,7 @@ Sql for this function:
 
 #### How to run
 
-1) Import database to postgres from that [sql script](task1/files/database-init.sql).  
+1) Import database to postgres from that [sql script](task1/files/database-init.sql). Database name - `db-task`, user/password - `postgres/1234`.
 2) Get jar file from [here](task1/files/db-task.jar).  
 3) Launch program using `java -jar db-task.jar`. Needed postgres driver embedded.  
 
@@ -105,7 +105,7 @@ Built with: **Maven** using **Spring** and **Thymeleaf**, Language: **Java 11**,
 
 #### How to run
 
-1) Import database to postgres from that [sql script](task2/files/database-init.sql).  
+1) Import database to postgres from that [sql script](task2/files/database-init.sql). Database name - `excel-task`, user/password - `postgres/1234`.
 2) Get jar file from [here](task2/files/excel-task.jar).  
 3) Launch program using `java -jar excel-task.jar`. Needed dependencies embedded.  
 4) Open browser at `http://localhost:8080/`.  
