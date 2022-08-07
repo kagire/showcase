@@ -4,7 +4,9 @@
 
 #### Description
 
-Built with: **Maven**, Language: **Java 11**, Database: **PostgreSQL**
+Built with: **Maven**, Language: **Java 11**, Database: **PostgreSQL**  
+
+[Check the vid of running program](https://disk.yandex.by/i/esu2LLvp7gjgQQ)
 
 #### Conditions
 
@@ -89,7 +91,9 @@ Project code can be found here: [source code](task1/files/db-task.rar).
 
 #### Description
 
-Built with: **Maven** using **Spring** and **Thymeleaf**, Language: **Java 11**, Database: **PostgreSQL**
+Built with: **Maven** using **Spring** and **Thymeleaf**, Language: **Java 11**, Database: **PostgreSQL**  
+
+[See the vid of running program](https://disk.yandex.by/i/c23x_qtGmHfnxA)
 
 #### Conditions
 
